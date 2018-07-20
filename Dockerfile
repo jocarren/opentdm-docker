@@ -59,10 +59,30 @@ run echo "set g_locked_names ${G_LOCKED_NAMES}" >> ${GAME}/server.cfg
 #MISC
 run echo "set g_intermission_time ${G_INTERMISSION_TIME}" >> ${GAME}/server.cfg
 run echo "set g_tdm_allow_pick ${G_TDM_ALLOW_PICK}" >> ${GAME}/server.cfg
-
+run echo "set g_allow_vote_config ${G_ALLOW_VOTE_CONFIG}" >> ${GAME}/server.cfg
 run echo "set g_motd_message ${G_MOTD_MESSAGE}" >> ${GAME}/server.cfg
 run echo "set g_vote_time ${G_VOTE_TIME}" >> ${GAME}/server.cfg
 run echo "set g_chat_mode ${G_CHAT_MODE}" >> ${GAME}/server.cfg
+run echo "set g_max_timeout ${G_MAX_TIMEOUT}" >> ${GAME}/server.cfg
+run echo "set g_1v1_timeout ${G_1V1_TIMEOUT}" >> ${GAME}/server.cfg
+run echo "set g_respawn_time ${G_RESPAWN_TIME}" >> ${GAME}/server.cfg
+run echo "set g_idle_time ${G_IDLE_TIME}" >> ${GAME}/server.cfg
+run echo "set g_max_force_screenshot ${G_FORCE_SCREENSHOT}" >> ${GAME}/server.cfg
+run echo "set g_max_force_record ${G_FORCE_RECORD}" >> ${GAME}/server.cfg
+run echo "set g_bugs ${G_BUGS}" >> ${GAME}/server.cfg
+run echo "set g_allow_name_change_during_match ${G_ALLOW_NAME_CHANGE_DURING_MATCH}" >> ${GAME}/server.cfg
+run echo "set g_maplistfile ${G_MAPLISTFILE}" >> ${GAME}/server.cfg
+run echo "set g_auto_rejoin_match ${G_AUTO_REJOIN_MATCH}" >> ${GAME}/server.cfg
+run echo "set g_max_players_per_team ${G_MAX_PLAYERS_PER_TEAM}" >> ${GAME}/server.cfg
+run echo "set g_admin_vote_decide ${G_ADMIN_VOTE_DECIDE}" >> ${GAME}/server.cfg
+run echo "set g_1v1_spawn_mode ${G_1V1_SPAWN_MODE}" >> ${GAME}/server.cfg
+run echo "set g_tdm_spawn_mode ${G_TDM_SPAWN_MODE}" >> ${GAME}/server.cfg
+run echo "set g_vote_mask ${G_VOTE_MASK}" >> ${GAME}/server.cfg
+
+#TAUNT FLOOD
+
+run echo "set flood_waves ${FLOOD_WAVES}" >> ${GAME}/server.cfg
+run echo "set flood_waves_perminute ${FLOOD_WAVES_PERMINUTE}" >> ${GAME}/server.cfg
 
 
 #run /bin/bash
