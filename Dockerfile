@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 MAINTAINER Jonathan Carreño <jocarren@gmail.com>
 ENV NET_PORT 27910
+ENV GAME opentdm
 add . /opt/quake2
 run useradd -m -s /bin/bash quake2
 run chown -R quake2:quake2 /opt/quake2
