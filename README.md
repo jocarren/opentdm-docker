@@ -1,4 +1,4 @@
-# opentdm-docker
+# OpenTDM-docker
 
 Dockerized Quake II OpenTDM server. 
 
