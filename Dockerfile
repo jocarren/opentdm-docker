@@ -11,10 +11,12 @@ run wget http://skuller.net/q2pro/nightly/q2pro-server_linux_amd64.tar.gz -O- | 
 expose ${NET_PORT}:27910/udp
 workdir /opt/quake2
 user quake2
+
+#++++ENVIRONMENT VARIABLES FOR SERVER.CFG++++
+
 #GENERAL
 run echo "set hostname ${HOSTNAME}" > ${GAME}/server.cfg
 run echo "set maxclients ${MAXCLIENTS}" >> ${GAME}/server.cfg
-run echo "set public ${PUBLIC}" >> ${GAME}/server.cfg
 run echo "set deathmatch ${DEATHMATCH}" >> ${GAME}/server.cfg
 run echo "set cheats ${CHEATS}" >> ${GAME}/server.cfg
 
@@ -84,9 +86,36 @@ run echo "set g_vote_mask ${G_VOTE_MASK}" >> ${GAME}/server.cfg
 
 run echo "set flood_waves ${FLOOD_WAVES}" >> ${GAME}/server.cfg
 run echo "set flood_waves_perminute ${FLOOD_WAVES_PERMINUTE}" >> ${GAME}/server.cfg
+run echo "set flood_waves_waitdelay ${FLOOD_WAVES_WAITDELAY}" >> ${GAME}/server.cfg
 
+#HTTP
 
-#run /bin/bash
-CMD ./q2proded +set net_port 27910 +set game OPENTDM +exec server.cfg
+run echo "set g_http_enabled ${G_HTTP_ENABLED}" >> ${GAME}/server.cfg
+run echo "set g_http_base_url ${G_HTTP_BASE_URL" >> ${GAME}/server.cfg
+
+#DEDICATED
+
+run echo "set public ${PUBLIC}" >> ${GAME}/server.cfg
+run echo "setmaster ${SETMASTER}" >> ${GAME}/server.cfg
+
+#DOWNLOAD
+
+run echo "set allow_download ${ALLOW_DOWNLOAD}" >> ${GAME}/server.cfg
+run echo "set allow_download_maps ${ALLOW_DOWNLOAD_MAPS}" >> ${GAME}/server.cfg
+run echo "set allow_download_sounds ${ALLOW_DOWNLOAD_SOUNDS}" >> ${GAME}/server.cfg
+run echo "set allow_download_models ${ALLOW_DOWNLOAD_MODELS}" >> ${GAME}/server.cfg
+run echo "set allow_download_players ${ALLOW_DOWNLOAD_PLAYERS}" >> ${GAME}/server.cfg
+
+#MVD
+
+run echo "set sv_mvd_enable ${SV_MVD_ENABLE}" >> ${GAME}/server.cfg
+run echo "set addgtvhost ${ADDGTVHOST}" >> ${GAME}/server.cfg
+
+#MAP
+run echo "set map ${INITMAP}" >> ${GAME}/server.cfg #initial map, default q2dm1.
+
+#++++ENVIRONMENT VARIABLES FOR SERVER.CFG++++
+
+CMD ./q2proded +set net_port 27910 +set game ${GAME} +exec server.cfg
 
 
