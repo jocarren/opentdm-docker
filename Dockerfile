@@ -53,7 +53,7 @@ ENV G_LOCKED_NAMES 0
 ENV G_INTERMISSION_TIME 5
 ENV G_TDM_ALLOW_PICK 1
 ENV G_ALLOW_VOTE_CONFIG 1
-ENV G_MOTD_MESSAGE "==========================\nVisita http://q2esvida.cl/\n=========================="
+#ENV G_MOTD_MESSAGE "==========================\nVisita http://q2esvida.cl/\n=========================="
 ENV G_VOTE_TIME 90
 ENV G_CHAT_MODE 1
 ENV G_MAX_TIMEOUT 300
@@ -222,6 +222,6 @@ run echo ${MAPLIST} >> ${GAME}/maps.lst
 
 #++++END MAPS.LST BUILD FROM ENVIRONMENT VARIABLES++++
 
-CMD ./q2proded +set net_port 27910 +set game ${GAME} +exec server.cfg
+CMD ./q2proded +set net_port 27910 +set game opentdm +exec server.cfg
 
 
