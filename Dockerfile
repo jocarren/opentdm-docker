@@ -212,7 +212,7 @@ run echo "set sv_mvd_enable ${SV_MVD_ENABLE}" >> ${GAME}/server.cfg
 run echo "set addgtvhost ${ADDGTVHOST}" >> ${GAME}/server.cfg
 
 #MAP
-run echo "set map ${INITMAP}" >> ${GAME}/server.cfg #initial map, default q2dm1.
+run echo "map ${INITMAP}" >> ${GAME}/server.cfg #initial map, default q2dm1.
 
 #++++END ERVER.CFG BUILD FROM ENVIRONMENT VARIABLES++++
 
