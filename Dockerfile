@@ -120,7 +120,7 @@ USER quake2
 
 #++++BEGIN MAPS.LST BUILD FROM ENVIRONMENT VARIABLES++++
 
-run echo "$MAPLIST" >> opentdm/maps.lst
+run echo -e "$MAPLIST" > opentdm/maps.lst
 #++++END MAPS.LST BUILD FROM ENVIRONMENT VARIABLES++++
 
 CMD ./q2proded +set net_port 27910 +set game opentdm \
