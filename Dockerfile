@@ -99,7 +99,7 @@ ENV ADDGTVHOST=""
 
 #MAP
 ENV INITMAP="q2dm1"
-ENV MAPLIST="q2dm1 q2dm2 q2dm3 q2dm4 q2dm5 q2dm6 q2dm7 q2dm8 aeroq2 bloodrun catodm1 cog2dm1 fury growlis koldduel1 match1 pro_q2t4 pro-q3dm6 ptrip q2campgrnds q2duel5 q2next1 q2next2 q2rdm2 q2rdm5 q2rdm7 rene51 tltf ztn2dm2 ztn2dm3"
+ENV MAPLIST="q2dm1\nq2dm2\nq2dm3\nq2dm4\nq2dm5\nq2dm6\nq2dm7\nq2dm8\naeroq2\nbloodrun\ncatodm1\ncog2dm1\nfury\ngrowlis\nkoldduel1\nmatch1\npro_q2t4\npro-q3dm6\nptrip\nq2campgrnds q2duel5\nq2next1\nq2next2\nq2rdm2\nq2rdm5\nq2rdm7\nrene51\ntltf\nztn2dm2\nztn2dm3"
 
 #++++END SERVER COMMANDS AS ENVIRONMENT VARIABLES++++
 
@@ -119,7 +119,7 @@ USER quake2
 
 
 #++++BEGIN MAPS.LST BUILD FROM ENVIRONMENT VARIABLES++++
-run echo "//maplist" > opentdm/maps.lst
+
 run echo "$MAPLIST" >> opentdm/maps.lst
 #++++END MAPS.LST BUILD FROM ENVIRONMENT VARIABLES++++
 
