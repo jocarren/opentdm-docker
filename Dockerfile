@@ -190,4 +190,4 @@ CMD ./q2proded +set net_port 27910 +set game opentdm \
 +set allow_download_players "$ALLOW_DOWNLOAD_PLAYERS" \
 +set sv_mvd_enable "$SV_MVD_ENABLE" \
 +set addgtvhost "$ADDGTVHOST" \
-+set map "$INITMAP"
++map "$INITMAP"
