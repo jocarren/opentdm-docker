@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="version" content="5de793e3ecafb3886ab9728b0946518c8addebab">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="http://q2esvida.cl/favicon.png" />
+	<title>Archivos</title>
+	<link href="/.abba/css/style.css" rel="stylesheet">
+	<link href="/.abba/css/menu.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="/.abba/js/iefix.js"></script>
+	<![endif]-->
+</head>
+<div class="menu">
+	<tr>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/">INICIO</a></td>
+        <td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/servidores">SERVIDORES</a></td>
+        <td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/archivos">ARCHIVOS</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/tutoriales/conectarse">TUTORIALES</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/links">LINKS</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/coliseo">COLISEO</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/noticias">NOTICIAS</a></td>
+        </tr>
+</div>
+<body>
+
+<header style="margin-top:3%">
+	<nav class="navbar navbar-default" style="display:none">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">
+					<span class="icon icon-abba" aria-hidden="true"></span>
+					q2esvida.cl
+				</a>
+			</div>
+		</div>
+	</nav>
+</header>
+<main>
+	<div class="container">
+
+<nav>
+	<ol class="breadcrumb" style="display:none" id="breadcrumb">
+		<li class="active">
+			<span class="icon icon-home" aria-hidden="true"></span>
+			<span class="sr-only">q2esvida.cl</span>
+		</li>
+	</ol>
+</nav>
+
+<div class="table-responsive" style="display:none" id="table">
+
+<table><tr><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=D">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th></tr><tr><td><a href="/archivos/http-dl/opentdm/textures/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td></tr>
+<tr><td><a href="base1_1.wal">base1_1.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="base1_3a1.wal">base1_3a1.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="base1_666.wal">base1_666.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 85K</td></tr>
+<tr><td><a href="base2_2a.wal">base2_2a.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="crate23.wal">crate23.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="floor6b.wal">floor6b.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="floor7.wal">floor7.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="hazard.wal">hazard.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="laser04.wal">laser04.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">440 </td></tr>
+<tr><td><a href="metal1_23.wal">metal1_23.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="metal1_24.wal">metal1_24.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="metal1_31a.wal">metal1_31a.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="metal1_40.wal">metal1_40.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="metal1_42.wal">metal1_42.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="metal1_52.wal">metal1_52.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="metal2_12a.wal">metal2_12a.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="metal2_15.wal">metal2_15.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="metal2_44.wal">metal2_44.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="metal2_47.wal">metal2_47.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="metal2_481.wal">metal2_481.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="metal5_16.wal">metal5_16.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="metal5_17.wal">metal5_17.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="slight01.wal">slight01.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">1.4K</td></tr>
+<tr><td><a href="slight03.wal">slight03.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">1.4K</td></tr>
+<tr><td><a href="wlight4.wal">wlight4.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">2.8K</td></tr>
+</table>
+</div>
+
+	</div>
+</main>
+
+<script src="/.abba/js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="version" content="5de793e3ecafb3886ab9728b0946518c8addebab">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="http://q2esvida.cl/favicon.png" />
+	<title>Archivos</title>
+	<link href="/.abba/css/style.css" rel="stylesheet">
+	<link href="/.abba/css/menu.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="/.abba/js/iefix.js"></script>
+	<![endif]-->
+</head>
+<div class="menu">
+	<tr>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/">INICIO</a></td>
+        <td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/servidores">SERVIDORES</a></td>
+        <td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/archivos">ARCHIVOS</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/tutoriales/conectarse">TUTORIALES</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/links">LINKS</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/coliseo">COLISEO</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/noticias">NOTICIAS</a></td>
+        </tr>
+</div>
+<body>
+
+<header style="margin-top:3%">
+	<nav class="navbar navbar-default" style="display:none">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">
+					<span class="icon icon-abba" aria-hidden="true"></span>
+					q2esvida.cl
+				</a>
+			</div>
+		</div>
+	</nav>
+</header>
+<main>
+	<div class="container">
+
+<nav>
+	<ol class="breadcrumb" style="display:none" id="breadcrumb">
+		<li class="active">
+			<span class="icon icon-home" aria-hidden="true"></span>
+			<span class="sr-only">q2esvida.cl</span>
+		</li>
+	</ol>
+</nav>
+
+<div class="table-responsive" style="display:none" id="table">
+
+<table><tr><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th></tr><tr><td><a href="/archivos/http-dl/opentdm/textures/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td></tr>
+<tr><td><a href="sftwd45b.wal">sftwd45b.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="sftwd045.wal">sftwd045.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="sftwd037.wal">sftwd037.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="sftrd008.wal">sftrd008.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="nrmw6.wal">nrmw6.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="nrmtl053.wal">nrmtl053.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="nrmtl050.wal">nrmtl050.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="nrmtl049.wal">nrmtl049.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="nrmtl042.wal">nrmtl042.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="nrmtl031.wal">nrmtl031.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="nrmrk027.wal">nrmrk027.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="nrmpl075.wal">nrmpl075.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="nrmpl070.wal">nrmpl070.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="nrmpl053.wal">nrmpl053.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 13K</td></tr>
+<tr><td><a href="nrmpl036.wal">nrmpl036.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">2.8K</td></tr>
+<tr><td><a href="nrmp51.wal">nrmp51.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="nrmp50.wal">nrmp50.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="lava1.wal">lava1.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="hrdtl052.wal">hrdtl052.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdtl032.wal">hrdtl032.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdtl025.wal">hrdtl025.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="hrdtl016.wal">hrdtl016.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdrk162.wal">hrdrk162.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdrk153.wal">hrdrk153.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdrk141.wal">hrdrk141.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdrk123.wal">hrdrk123.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdrk113.wal">hrdrk113.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdrk099.wal">hrdrk099.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdrk089.wal">hrdrk089.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">8.1K</td></tr>
+<tr><td><a href="hrdrk075.wal">hrdrk075.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdrk050.wal">hrdrk050.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdrk043.wal">hrdrk043.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdrk038.wal">hrdrk038.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 29K</td></tr>
+<tr><td><a href="hrdrk034.wal">hrdrk034.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="hrdrk030.wal">hrdrk030.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="hrdrk029.wal">hrdrk029.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="hrdpl135.wal">hrdpl135.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 29K</td></tr>
+<tr><td><a href="hrdpl124.wal">hrdpl124.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdpl091.wal">hrdpl091.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdpl047rot.wal">hrdpl047rot.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdpl047dec2.wal">hrdpl047dec2.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 85K</td></tr>
+<tr><td><a href="hrdpl047dec.wal">hrdpl047dec.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 85K</td></tr>
+<tr><td><a href="hrdpl047.wal">hrdpl047.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdpl035.wal">hrdpl035.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="hrdpl030.wal">hrdpl030.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 16K</td></tr>
+<tr><td><a href="hrdpl003.wal">hrdpl003.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">1.4K</td></tr>
+</table>
+</div>
+
+	</div>
+</main>
+
+<script src="/.abba/js/script.js"></script>
+</body>
+</html>
+

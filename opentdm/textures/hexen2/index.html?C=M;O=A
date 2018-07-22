@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="version" content="5de793e3ecafb3886ab9728b0946518c8addebab">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="http://q2esvida.cl/favicon.png" />
+	<title>Archivos</title>
+	<link href="/.abba/css/style.css" rel="stylesheet">
+	<link href="/.abba/css/menu.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="/.abba/js/iefix.js"></script>
+	<![endif]-->
+</head>
+<div class="menu">
+	<tr>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/">INICIO</a></td>
+        <td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/servidores">SERVIDORES</a></td>
+        <td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/archivos">ARCHIVOS</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/tutoriales/conectarse">TUTORIALES</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/links">LINKS</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/coliseo">COLISEO</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/noticias">NOTICIAS</a></td>
+        </tr>
+</div>
+<body>
+
+<header style="margin-top:3%">
+	<nav class="navbar navbar-default" style="display:none">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">
+					<span class="icon icon-abba" aria-hidden="true"></span>
+					q2esvida.cl
+				</a>
+			</div>
+		</div>
+	</nav>
+</header>
+<main>
+	<div class="container">
+
+<nav>
+	<ol class="breadcrumb" style="display:none" id="breadcrumb">
+		<li class="active">
+			<span class="icon icon-home" aria-hidden="true"></span>
+			<span class="sr-only">q2esvida.cl</span>
+		</li>
+	</ol>
+</nav>
+
+<div class="table-responsive" style="display:none" id="table">
+
+<table><tr><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=D">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th></tr><tr><td><a href="/archivos/http-dl/opentdm/textures/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td></tr>
+<tr><td><a href="marble.wal">marble.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 12K</td></tr>
+<tr><td><a href="mtex407.wal">mtex407.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="mtex408.wal">mtex408.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="mtex436.wal">mtex436.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="mtex437.wal">mtex437.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="mtex438.wal">mtex438.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="mtex439.wal">mtex439.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="mtex441.wal">mtex441.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="mtex446.wal">mtex446.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="mtex447.wal">mtex447.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="mtex450.wal">mtex450.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="mtex452.wal">mtex452.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="mtex454.wal">mtex454.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="mtex455.wal">mtex455.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="mtex457.wal">mtex457.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="mtex474.wal">mtex474.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="mtex475.wal">mtex475.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="mtex476.wal">mtex476.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="mtex478.wal">mtex478.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="mtex483.wal">mtex483.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="mtex489.wal">mtex489.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="mtex495.wal">mtex495.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">8.1K</td></tr>
+<tr><td><a href="rtex081.wal">rtex081.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="rtex096.wal">rtex096.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="rtex100.wal">rtex100.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="rtex156.wal">rtex156.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">1.4K</td></tr>
+<tr><td><a href="rtex261.wal">rtex261.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">2.8K</td></tr>
+<tr><td><a href="rtex263.wal">rtex263.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">1.4K</td></tr>
+<tr><td><a href="rtex264.wal">rtex264.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">1.4K</td></tr>
+<tr><td><a href="rtex265.wal">rtex265.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="rtex270.wal">rtex270.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">1.4K</td></tr>
+<tr><td><a href="rtex273.wal">rtex273.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="rtex295.wal">rtex295.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="rtex296.wal">rtex296.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="rtex329.wal">rtex329.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="rtex341a.wal">rtex341a.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 13K</td></tr>
+<tr><td><a href="rtex345.wal">rtex345.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">5.4K</td></tr>
+<tr><td><a href="rtex357a.wal">rtex357a.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 32K</td></tr>
+<tr><td><a href="rtex362a.wal">rtex362a.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="rtex366a.wal">rtex366a.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 15K</td></tr>
+<tr><td><a href="rtex394a.wal">rtex394a.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="rtex414a.wal">rtex414a.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="rtex419a.wal">rtex419a.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="rtex421a.wal">rtex421a.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 16K</td></tr>
+<tr><td><a href="rtex422a.wal">rtex422a.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+</table>
+</div>
+
+	</div>
+</main>
+
+<script src="/.abba/js/script.js"></script>
+</body>
+</html>
+

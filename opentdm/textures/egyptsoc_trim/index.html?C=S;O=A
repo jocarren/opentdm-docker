@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="version" content="5de793e3ecafb3886ab9728b0946518c8addebab">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="http://q2esvida.cl/favicon.png" />
+	<title>Archivos</title>
+	<link href="/.abba/css/style.css" rel="stylesheet">
+	<link href="/.abba/css/menu.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="/.abba/js/iefix.js"></script>
+	<![endif]-->
+</head>
+<div class="menu">
+	<tr>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/">INICIO</a></td>
+        <td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/servidores">SERVIDORES</a></td>
+        <td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/archivos">ARCHIVOS</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/tutoriales/conectarse">TUTORIALES</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/links">LINKS</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/coliseo">COLISEO</a></td>
+	<td><a style="font-family: ProFontWindows; border: solid grey 1px; display: inline-block; width:100px; height:20px" href="/noticias">NOTICIAS</a></td>
+        </tr>
+</div>
+<body>
+
+<header style="margin-top:3%">
+	<nav class="navbar navbar-default" style="display:none">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">
+					<span class="icon icon-abba" aria-hidden="true"></span>
+					q2esvida.cl
+				</a>
+			</div>
+		</div>
+	</nav>
+</header>
+<main>
+	<div class="container">
+
+<nav>
+	<ol class="breadcrumb" style="display:none" id="breadcrumb">
+		<li class="active">
+			<span class="icon icon-home" aria-hidden="true"></span>
+			<span class="sr-only">q2esvida.cl</span>
+		</li>
+	</ol>
+</nav>
+
+<div class="table-responsive" style="display:none" id="table">
+
+<table><tr><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=D">Size</a></th></tr><tr><td><a href="/archivos/http-dl/opentdm/textures/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td></tr>
+<tr><td><a href="032-01b.wal">032-01b.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="032-03b.wal">032-03b.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="032-04d.wal">032-04d.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="032-05b.wal">032-05b.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="032-05d.wal">032-05d.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 11K</td></tr>
+<tr><td><a href="s064-05b.wal">s064-05b.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="s064-05f.wal">s064-05f.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="s064-05h.wal">s064-05h.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="s128-01b.wal">s128-01b.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="s128-01c.wal">s128-01c.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="s128-01d.wal">s128-01d.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="v064-01d.wal">v064-01d.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 21K</td></tr>
+<tr><td><a href="032-01b.tga">032-01b.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 25K</td></tr>
+<tr><td><a href="032-03b.tga">032-03b.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 25K</td></tr>
+<tr><td><a href="032-04d.tga">032-04d.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 25K</td></tr>
+<tr><td><a href="128-01pc.wal">128-01pc.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="128-02c.wal">128-02c.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="128-04b.wal">128-04b.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="128-05b.wal">128-05b.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="128-05d.wal">128-05d.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="128-05h.wal">128-05h.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="128-05j.wal">128-05j.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="v128-01c.wal">v128-01c.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="v128-01d.wal">v128-01d.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="v128-03d.wal">v128-03d.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 43K</td></tr>
+<tr><td><a href="s064-05b.tga">s064-05b.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 49K</td></tr>
+<tr><td><a href="s064-05f.tga">s064-05f.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 49K</td></tr>
+<tr><td><a href="s064-05h.tga">s064-05h.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 49K</td></tr>
+<tr><td><a href="v064-01d.tga">v064-01d.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 49K</td></tr>
+<tr><td><a href="256-03b.wal">256-03b.wal</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 85K</td></tr>
+<tr><td><a href="128-02c.tga">128-02c.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 97K</td></tr>
+<tr><td><a href="128-01pc.tga">128-01pc.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 97K</td></tr>
+<tr><td><a href="128-05d.tga">128-05d.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 97K</td></tr>
+<tr><td><a href="128-05h.tga">128-05h.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 97K</td></tr>
+<tr><td><a href="128-05j.tga">128-05j.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 97K</td></tr>
+<tr><td><a href="128-05b.tga">128-05b.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 97K</td></tr>
+<tr><td><a href="128-04b.tga">128-04b.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 97K</td></tr>
+<tr><td><a href="v128-03d.tga">v128-03d.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right"> 97K</td></tr>
+<tr><td><a href="256-03b.tga">256-03b.tga</a></td><td align="right">18-Sep-2017 23:58  </td><td align="right">193K</td></tr>
+</table>
+</div>
+
+	</div>
+</main>
+
+<script src="/.abba/js/script.js"></script>
+</body>
+</html>
+

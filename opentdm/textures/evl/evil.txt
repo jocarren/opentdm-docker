@@ -1,0 +1,27 @@
+Author: Yves Allaire aka evil lair
+Email: hfx@planetquake.com
+URL: http://planetquake.com/hfx
+
+Conversion By: Paul "Cyber-Freak" Lawrence
+Email: buzzsaw@nsfyproductions.com
+URL: http://buzzsaw.gamedesign.net/
+
+
+[INFO]
+Recommended practice when using custom textures, in order to avoid collisions:
+
+- always place them in the directory structure textures/mymap/
+- rename them if necessary
+- distribute what you used in your pak file
+
+[STUFF]
+-If you use any of the textures please email me, the author and possibly Cyber-Freak, with the
+url to some screenshots if possible. I (we) really would like to
+see what uses mappers have made of them.
+
+[Copyright/Permissions]
+-You may not edit, modify any textures within this archive unless given permission to do so by the author.
+-You may not use these textures as base for your own.
+-You may convert these textures to other game formats but only with the authors permission.
+-You may rename the textures.
+-You may use these texture in your maps/mods/tcs as long as you give us credit.
