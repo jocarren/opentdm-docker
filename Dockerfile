@@ -53,7 +53,7 @@ ENV G_LOCKED_NAMES="0"
 ENV G_INTERMISSION_TIME="5"
 ENV G_TDM_ALLOW_PICK="1"
 ENV G_ALLOW_VOTE_CONFIG="1"
-ENV G_MOTD_MESSAGE="==========================\nQuake 2 OpenTDM Server\n=========================="
+ENV G_MOTD_MESSAGE="=========================\nQuake 2 OpenTDM Server\n========================="
 ENV G_VOTE_TIME="90"
 ENV G_CHAT_MODE="1"
 ENV G_MAX_TIMEOUT="300"
@@ -99,7 +99,7 @@ ENV ADDGTVHOST=""
 
 #MAP
 ENV INITMAP="q2dm1"
-ENV MAPLIST="q2dm1\nq2dm2\nq2dm3\nq2dm4\nq2dm5\nq2dm6\nq2dm7\nq2dm8\naeroq2\nbloodrun\ncatodm1\ncog2dm1\nfury\ngrowlis\nkoldduel1\nmatch1\npro_q2t4\npro-q3dm6\nptrip\nq2campgrnds q2duel5\nq2next1\nq2next2\nq2rdm2\nq2rdm5\nq2rdm7\nrene51\ntltf\nztn2dm2\nztn2dm3"
+ENV MAPLIST="q2dm1\nq2dm2\nq2dm3\nq2dm4\nq2dm5\nq2dm6\nq2dm7\nq2dm8\naeroq2\nbloodrun\ncatodm1\ncog2dm1\nfury\ngrowlis\nkoldduel1\nmatch1\npro_q2t4\npro-q3dm6\nptrip\nq2campgrnds\q2duel5\nq2next1\nq2next2\nq2rdm2\nq2rdm5\nq2rdm7\nrene51\ntltf\nztn2dm2\nztn2dm3"
 
 #++++END SERVER COMMANDS AS ENVIRONMENT VARIABLES++++
 
@@ -120,7 +120,7 @@ USER quake2
 
 #++++BEGIN MAPS.LST BUILD FROM ENVIRONMENT VARIABLES++++
 
-run echo -e "$MAPLIST" > opentdm/maps.lst
+run echo "$MAPLIST" > opentdm/maps.lst
 #++++END MAPS.LST BUILD FROM ENVIRONMENT VARIABLES++++
 
 CMD ./q2proded +set net_port 27910 +set game opentdm \
