@@ -164,8 +164,8 @@ CMD ./q2proded +set net_port 27910 +set game opentdm \
 +set g_1v1_timeout "$G_1V1_TIMEOUT" \
 +set g_respawn_time "$G_RESPAWN_TIME" \
 +set g_idle_time "$G_IDLE_TIME" \
-+set g_max_force_screenshot "$G_FORCE_SCREENSHOT" \
-+set g_max_force_record "$G_FORCE_RECORD" \
++set g_force_screenshot "$G_FORCE_SCREENSHOT" \
++set g_force_record "$G_FORCE_RECORD" \
 +set g_bugs "$G_BUGS" \
 +set g_allow_name_change_during_match "$G_ALLOW_NAME_CHANGE_DURING_MATCH" \
 +set g_maplistfile "$G_MAPLISTFILE" \
