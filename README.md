@@ -45,3 +45,9 @@ Or can be specified by env-file:
 ## Available CVARS
 
 All available cvars are listed in the example [env.list](https://github.com/jocarren/opentdm-docker/blob/master/env.list) environment file.
+
+## Acknowledgments
+
+- Andrey Nazarov (skullernet) for his q2pro client and opentdm fork http://skuller.net/
+- Richard Stanway (r1ch) for his opentdm Quake2 team deathmatch mod https://r1ch.net/
+- John Carmack and the Id Software team, for releasing the q2 source code under GPL licence.
