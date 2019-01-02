@@ -48,6 +48,10 @@ All available cvars are listed in the example [env.list](https://github.com/joca
 
 ## Acknowledgments
 
-- Andrey Nazarov (skullernet) for his Q2pro client/server and OpenTDM fork http://skuller.net/
-- Richard Stanway (r1ch) for his OpenTDM Quake2 team deathmatch mod https://r1ch.net/
+- Andrey Nazarov (skullernet), for his Q2pro client/server and OpenTDM fork http://skuller.net/
+- Richard Stanway (r1ch), for his OpenTDM Quake2 team deathmatch mod https://r1ch.net/
 - John Carmack and the Id Software team, for releasing the q2 source code under GPL licence.
+- Linus Torvalds and Richard Stallman, for GNU/Linux.
+- Bill Gates, for making me hate Windows and embrace GNU/Linux.
+- The Docker people, for Docker.
+- Archimedes of Syracuse, Galileo Galilei, Isaac Newton, Clerk Maxwell, Nikola Tesla, Alan Turing and John Von Neumann, without them, none of this would have been possible.
