@@ -123,7 +123,7 @@ USER quake2
 run echo "$MAPLIST" > opentdm/maps.lst
 #++++END MAPS.LST BUILD FROM ENVIRONMENT VARIABLES++++
 
-CMD ./q2proded +set net_port 27910 +set game opentdm \
+CMD ./q2proded +set net_port 27910 +set game "$GAME" \
 +set hostname "$HOSTNAME" \
 +set maxclients "$MAXCLIENTS" \
 +set deathmatch "$DEATHMATCH" \
