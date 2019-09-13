@@ -111,7 +111,6 @@ RUN chown -R quake2:quake2 /opt/quake2
 RUN apt-get update
 RUN apt-get install wget -y
 RUN wget https://skuller.net/q2pro/nightly/q2pro-server_linux_amd64.tar.gz -O- | tar zxvf - -C /opt/quake2
-RUN wget https://skuller.net/q2pro/nightly/q2pro-server_linux_i386.tar.gz -O- | tar zxvf - -C /opt/quake2
 EXPOSE 27910/udp
 EXPOSE 27910/tcp
 EXPOSE 27920/tcp
