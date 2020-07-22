@@ -10,6 +10,7 @@ ENV HOSTNAME="Quake 2 OpenTDM Server"
 ENV MAXCLIENTS="32"
 ENV DEATHMATCH="1"
 ENV CHEATS="0"
+ENV SV_IPLIMIT="0"
 
 #RCON
 ENV RCON_PASSWORD="purripurri"
@@ -192,4 +193,5 @@ CMD ./q2proded +set net_port 27910 +set game "$GAME" \
 +set allow_download_players "$ALLOW_DOWNLOAD_PLAYERS" \
 +set sv_mvd_enable "$SV_MVD_ENABLE" \
 +set addgtvhost "$ADDGTVHOST" \
++set sv_iplimit "$SV_IPLIMIT" \
 +map "$INITMAP"
