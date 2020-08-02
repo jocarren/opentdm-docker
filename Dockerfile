@@ -100,7 +100,6 @@ ENV ADDGTVHOST=""
 
 #MAP
 ENV INITMAP="q2dm1"
-ENV MAPLIST="q2dm1\nq2dm2\nq2dm3\nq2dm4\nq2dm5\nq2dm6\nq2dm7\nq2dm8\naeroq2\nbloodrun\ncatodm1\ncog2dm1\nfury\ngrowlis\nkoldduel1\nmatch1\npro_q2t4\npro-q3dm6\nptrip\nq2campgrnds\q2duel5\nq2next1\nq2next2\nq2rdm2\nq2rdm5\nq2rdm7\nrene51\ntltf\nztn2dm2\nztn2dm3"
 
 #++++END SERVER COMMANDS AS ENVIRONMENT VARIABLES++++
 
@@ -119,12 +118,6 @@ EXPOSE 27920/udp
 WORKDIR /opt/quake2
 USER quake2
 #++++END DIRECORY AND EXECUTABLE BUILD++++
-
-
-#++++BEGIN MAPS.LST BUILD FROM ENVIRONMENT VARIABLES++++
-
-run echo "$MAPLIST" > opentdm/maps.lst
-#++++END MAPS.LST BUILD FROM ENVIRONMENT VARIABLES++++
 
 CMD ./q2proded +set net_port 27910 +set game "$GAME" \
 +set hostname "$HOSTNAME" \
