@@ -54,7 +54,6 @@ ENV G_LOCKED_NAMES="0"
 ENV G_INTERMISSION_TIME="5"
 ENV G_TDM_ALLOW_PICK="1"
 ENV G_ALLOW_VOTE_CONFIG="1"
-ENV G_MOTD_MESSAGE="=========================\nQuake 2 OpenTDM Server\n========================="
 ENV G_VOTE_TIME="90"
 ENV G_CHAT_MODE="1"
 ENV G_MAX_TIMEOUT="300"
@@ -118,74 +117,73 @@ EXPOSE 27920/udp
 WORKDIR /opt/quake2
 USER quake2
 
-RUN echo set hostname "$HOSTNAME" >> config.cfg \
-RUN echo set maxclients "$MAXCLIENTS" >> config.cfg \
-RUN echo set deathmatch "$DEATHMATCH" >> config.cfg \
-RUN echo set cheats "$CHEATS" >> config.cfg \
-RUN echo set rcon_password "$RCON_PASSWORD" >> config.cfg \
-RUN echo set g_admin_password "$G_ADMIN_PASSWORD" >> config.cfg \
-RUN echo set anticheat "$ANTICHEAT" >> config.cfg \
-RUN echo set sv_anticheat_required "$SV_ANTICHEAT_REQUIRED" >> config.cfg \ 
-RUN echo set log_stats "$LOG_STATS" >> config.cfg \
-RUN echo set logfile_name "$LOGFILE_NAME" >> config.cfg \
-RUN echo set logfile "$LOGFILE" >> config.cfg \
-RUN echo set logfile_timestamp "$LOGFILE_TIMESTAMP" >> config.cfg \
-RUN echo set g_gamemode "$G_GAMEMODE" >> config.cfg \
-RUN echo set g_match_time "$G_MATCH_TIME" >> config.cfg \
-RUN echo set g_match_countdown "$G_MATCH_COUNTDOWN" >> config.cfg \
-RUN echo set g_fast_weap_switch "$G_FAST_WEAP_SWITCH" >> config.cfg \
-RUN echo set g_overtime "$G_OVERTIME" >> config.cfg \
-RUN echo set g_tie_mode "$G_TIE_MODE" >> config.cfg \
-RUN echo set g_teleporter_nofreeze "$G_TELEPORTER_NOFREEZE" >> config.cfg \
-RUN echo set g_tdmflags "$G_TDMFLAGS" >> config.cfg \
-RUN echo set g_itdmflags "$G_ITDMFLAGS" >> config.cfg \
-RUN echo set g_1v1flags "$G_1V1FLAGS" >> config.cfg \
-RUN echo set g_itemflags "$G_ITEMFLAGS" >> config.cfg \
-RUN echo set g_powerupflags "$G_POWERUPFLAGS" >> config.cfg \
-RUN echo set g_team_a_skin "$G_TEAM_A_SKIN" >> config.cfg \
-RUN echo set g_team_b_skin "$G_TEAM_B_SKIN" >> config.cfg \
-RUN echo set g_locked_skins "$G_LOCKED_SKINS" >> config.cfg \
-RUN echo set g_team_a_name "$G_TEAM_A_NAME" >> config.cfg \
-RUN echo set g_team_b_name "$G_TEAM_B_NAME" >> config.cfg \
-RUN echo set g_locked_names "$G_LOCKED_NAMES" >> config.cfg \
-RUN echo set g_intermission_time "$G_INTERMISSION_TIME" >> config.cfg \
-RUN echo set g_tdm_allow_pick "$G_TDM_ALLOW_PICK" >> config.cfg \
-RUN echo set g_allow_vote_config "$G_ALLOW_VOTE_CONFIG" >> config.cfg \
-RUN echo set g_motd_message "$G_MOTD_MESSAGE" >> config.cfg \
-RUN echo set g_vote_time "$G_VOTE_TIME" >> config.cfg \
-RUN echo set g_chat_mode "$G_CHAT_MODE" >> config.cfg \
-RUN echo set g_max_timeout "$G_MAX_TIMEOUT" >> config.cfg \
-RUN echo set g_1v1_timeout "$G_1V1_TIMEOUT" >> config.cfg \
-RUN echo set g_respawn_time "$G_RESPAWN_TIME" >> config.cfg \
-RUN echo set g_idle_time "$G_IDLE_TIME" >> config.cfg \
-RUN echo set g_force_screenshot "$G_FORCE_SCREENSHOT" >> config.cfg \
-RUN echo set g_force_record "$G_FORCE_RECORD" >> config.cfg \
-RUN echo set g_bugs "$G_BUGS" >> config.cfg \
-RUN echo set g_allow_name_change_during_match "$G_ALLOW_NAME_CHANGE_DURING_MATCH" >> config.cfg \
-RUN echo set g_maplistfile "$G_MAPLISTFILE" >> config.cfg \
-RUN echo set g_auto_rejoin_match "$G_AUTO_REJOIN_MATCH" >> config.cfg \
-RUN echo set g_auto_rejoin_map "$G_AUTO_REJOIN_MAP" >> config.cfg \
-RUN echo set g_max_players_per_team "$G_MAX_PLAYERS_PER_TEAM" >> config.cfg \
-RUN echo set g_admin_vote_decide "$G_ADMIN_VOTE_DECIDE" >> config.cfg \
-RUN echo set g_1v1_spawn_mode "$G_1V1_SPAWN_MODE" >> config.cfg \
-RUN echo set g_tdm_spawn_mode "$G_TDM_SPAWN_MODE" >> config.cfg \
-RUN echo set g_vote_mask "$G_VOTE_MASK" >> config.cfg \
-RUN echo set flood_waves "$FLOOD_WAVES" >> config.cfg \
-RUN echo set flood_waves_perminute "$FLOOD_WAVES_PERMINUTE" >> config.cfg \
-RUN echo set flood_waves_waitdelay "$FLOOD_WAVES_WAITDELAY" >> config.cfg \
-RUN echo set g_http_enabled "$G_HTTP_ENABLED" >> config.cfg \
-RUN echo set g_http_base_url "$G_HTTP_BASE_URL" >> config.cfg \
-RUN echo set public "$PUBLIC" >> config.cfg \
-RUN echo setmaster "$SETMASTER" >> config.cfg \
-RUN echo set allow_download "$ALLOW_DOWNLOAD" >> config.cfg \
-RUN echo set allow_download_maps "$ALLOW_DOWNLOAD_MAPS" >> config.cfg \
-RUN echo set allow_download_sounds "$ALLOW_DOWNLOAD_SOUNDS" >> config.cfg \
-RUN echo set allow_download_models "$ALLOW_DOWNLOAD_MODELS" >> config.cfg \
-RUN echo set allow_download_players "$ALLOW_DOWNLOAD_PLAYERS" >> config.cfg \
-RUN echo set sv_mvd_enable "$SV_MVD_ENABLE" >> config.cfg \
-RUN echo set addgtvhost "$ADDGTVHOST" >> config.cfg \
-RUN echo set sv_iplimit "$SV_IPLIMIT" >> config.cfg \
+RUN echo set hostname "$HOSTNAME" >> baseq2/config.cfg
+RUN echo set maxclients "$MAXCLIENTS" >> baseq2/config.cfg
+RUN echo set deathmatch "$DEATHMATCH" >> baseq2/config.cfg
+RUN echo set cheats "$CHEATS" >> baseq2/config.cfg
+RUN echo set rcon_password "$RCON_PASSWORD" >> baseq2/config.cfg
+RUN echo set g_admin_password "$G_ADMIN_PASSWORD" >> baseq2/config.cfg
+RUN echo set anticheat "$ANTICHEAT" >> baseq2/config.cfg
+RUN echo set sv_anticheat_required "$SV_ANTICHEAT_REQUIRED" >> baseq2/config.cfg 
+RUN echo set log_stats "$LOG_STATS" >> baseq2/config.cfg
+RUN echo set logfile_name "$LOGFILE_NAME" >> baseq2/config.cfg
+RUN echo set logfile "$LOGFILE" >> baseq2/config.cfg
+RUN echo set logfile_timestamp "$LOGFILE_TIMESTAMP" >> baseq2/config.cfg
+RUN echo set g_gamemode "$G_GAMEMODE" >> baseq2/config.cfg
+RUN echo set g_match_time "$G_MATCH_TIME" >> baseq2/config.cfg
+RUN echo set g_match_countdown "$G_MATCH_COUNTDOWN" >> baseq2/config.cfg
+RUN echo set g_fast_weap_switch "$G_FAST_WEAP_SWITCH" >> baseq2/config.cfg
+RUN echo set g_overtime "$G_OVERTIME" >> baseq2/config.cfg
+RUN echo set g_tie_mode "$G_TIE_MODE" >> baseq2/config.cfg
+RUN echo set g_teleporter_nofreeze "$G_TELEPORTER_NOFREEZE" >> baseq2/config.cfg
+RUN echo set g_tdmflags "$G_TDMFLAGS" >> baseq2/config.cfg
+RUN echo set g_itdmflags "$G_ITDMFLAGS" >> baseq2/config.cfg
+RUN echo set g_1v1flags "$G_1V1FLAGS" >> baseq2/config.cfg
+RUN echo set g_itemflags "$G_ITEMFLAGS" >> baseq2/config.cfg
+RUN echo set g_powerupflags "$G_POWERUPFLAGS" >> baseq2/config.cfg
+RUN echo set g_team_a_skin "$G_TEAM_A_SKIN" >> baseq2/config.cfg
+RUN echo set g_team_b_skin "$G_TEAM_B_SKIN" >> baseq2/config.cfg
+RUN echo set g_locked_skins "$G_LOCKED_SKINS" >> baseq2/config.cfg
+RUN echo set g_team_a_name "$G_TEAM_A_NAME" >> baseq2/config.cfg
+RUN echo set g_team_b_name "$G_TEAM_B_NAME" >> baseq2/config.cfg
+RUN echo set g_locked_names "$G_LOCKED_NAMES" >> baseq2/config.cfg
+RUN echo set g_intermission_time "$G_INTERMISSION_TIME" >> baseq2/config.cfg
+RUN echo set g_tdm_allow_pick "$G_TDM_ALLOW_PICK" >> baseq2/config.cfg
+RUN echo set g_allow_vote_config "$G_ALLOW_VOTE_CONFIG" >> baseq2/config.cfg
+RUN echo set g_vote_time "$G_VOTE_TIME" >> baseq2/config.cfg
+RUN echo set g_chat_mode "$G_CHAT_MODE" >> baseq2/config.cfg
+RUN echo set g_max_timeout "$G_MAX_TIMEOUT" >> baseq2/config.cfg
+RUN echo set g_1v1_timeout "$G_1V1_TIMEOUT" >> baseq2/config.cfg
+RUN echo set g_respawn_time "$G_RESPAWN_TIME" >> baseq2/config.cfg
+RUN echo set g_idle_time "$G_IDLE_TIME" >> baseq2/config.cfg
+RUN echo set g_force_screenshot "$G_FORCE_SCREENSHOT" >> baseq2/config.cfg
+RUN echo set g_force_record "$G_FORCE_RECORD" >> baseq2/config.cfg
+RUN echo set g_bugs "$G_BUGS" >> baseq2/config.cfg
+RUN echo set g_allow_name_change_during_match "$G_ALLOW_NAME_CHANGE_DURING_MATCH" >> baseq2/config.cfg
+RUN echo set g_maplistfile "$G_MAPLISTFILE" >> baseq2/config.cfg
+RUN echo set g_auto_rejoin_match "$G_AUTO_REJOIN_MATCH" >> baseq2/config.cfg
+RUN echo set g_auto_rejoin_map "$G_AUTO_REJOIN_MAP" >> baseq2/config.cfg
+RUN echo set g_max_players_per_team "$G_MAX_PLAYERS_PER_TEAM" >> baseq2/config.cfg
+RUN echo set g_admin_vote_decide "$G_ADMIN_VOTE_DECIDE" >> baseq2/config.cfg
+RUN echo set g_1v1_spawn_mode "$G_1V1_SPAWN_MODE" >> baseq2/config.cfg
+RUN echo set g_tdm_spawn_mode "$G_TDM_SPAWN_MODE" >> baseq2/config.cfg
+RUN echo set g_vote_mask "$G_VOTE_MASK" >> baseq2/config.cfg
+RUN echo set flood_waves "$FLOOD_WAVES" >> baseq2/config.cfg
+RUN echo set flood_waves_perminute "$FLOOD_WAVES_PERMINUTE" >> baseq2/config.cfg
+RUN echo set flood_waves_waitdelay "$FLOOD_WAVES_WAITDELAY" >> baseq2/config.cfg
+RUN echo set g_http_enabled "$G_HTTP_ENABLED" >> baseq2/config.cfg
+RUN echo set g_http_base_url "$G_HTTP_BASE_URL" >> baseq2/config.cfg
+RUN echo set public "$PUBLIC" >> baseq2/config.cfg
+RUN echo setmaster "$SETMASTER" >> baseq2/config.cfg
+RUN echo set allow_download "$ALLOW_DOWNLOAD" >> baseq2/config.cfg
+RUN echo set allow_download_maps "$ALLOW_DOWNLOAD_MAPS" >> baseq2/config.cfg
+RUN echo set allow_download_sounds "$ALLOW_DOWNLOAD_SOUNDS" >> baseq2/config.cfg
+RUN echo set allow_download_models "$ALLOW_DOWNLOAD_MODELS" >> baseq2/config.cfg
+RUN echo set allow_download_players "$ALLOW_DOWNLOAD_PLAYERS" >> baseq2/config.cfg
+RUN echo set sv_mvd_enable "$SV_MVD_ENABLE" >> baseq2/config.cfg
+RUN echo set addgtvhost "$ADDGTVHOST" >> baseq2/config.cfg
+RUN echo set sv_iplimit "$SV_IPLIMIT" >> baseq2/config.cfg
 
 #++++END DIRECORY AND EXECUTABLE BUILD++++
 
-CMD ./q2proded RUN echo set net_port 27910 RUN echo set game "$GAME" +map "$INITMAP"
+CMD ./q2proded +set net_port 27910 +set game "$GAME" +map "$INITMAP" +exec config.cfg
