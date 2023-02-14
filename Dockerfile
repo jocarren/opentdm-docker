@@ -108,8 +108,10 @@ ADD . /opt/quake2
 RUN useradd -m -s /bin/bash quake2
 RUN chown -R quake2:quake2 /opt/quake2
 RUN apt-get update
-RUN apt-get install wget -y
-RUN wget https://skuller.net/q2pro/nightly/q2pro-server_linux_amd64.tar.gz -O- | tar zxvf - -C /opt/quake2
+RUN apt-get install curl -y
+RUN ARCH=$([ "$(uname -m)" = 'aarch64' ] && echo "arm64" || echo "amd64") \
+&& curl -o q2pro-server.tar.gz -sSL https://github.com/jocarren/opentdm-docker/raw/master/bin/q2pro/q2pro-server_linux_${ARCH}.tar.gz
+#RUN wget https://skuller.net/q2pro/nightly/q2pro-server_linux_amd64.tar.gz -O- | tar zxvf - -C /opt/quake2
 EXPOSE 27910/udp
 EXPOSE 27910/tcp
 EXPOSE 27920/tcp
