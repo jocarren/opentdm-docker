@@ -116,6 +116,8 @@ RUN ARCH=$([ "$(uname -m)" = 'aarch64' ] && echo "arm64" || echo "amd64") \
 && tar zxvf /opt/quake2/bin/q2pro/q2pro-server_linux_${ARCH}.tar.gz -C /opt/quake2 \
 && mv /opt/quake2/game${ARCH}.so /usr/local/lib/$(uname -m)-linux-gnu/q2pro/baseq2/
 RUN chmod +x /opt/quake2/q2proded
+RUN chmod 755 /usr/local/lib/$(uname -m)-linux-gnu/q2pro/opentdm/game${ARCH}.so
+RUN chmod 755 /usr/local/lib/$(uname -m)-linux-gnu/q2pro/baseq2/game${ARCH}.so
 RUN rm -R /opt/quake2/bin
 EXPOSE 27910/udp
 EXPOSE 27910/tcp
