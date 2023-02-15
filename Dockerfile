@@ -104,7 +104,9 @@ ENV INITMAP="q2dm1"
 
 #++++BEGIN DIRECORY AND EXECUTABLE BUILD++++
 
-ADD . /opt/quake2
+ADD ./bin /opt/quake2/bin
+ADD ./baseq2 /usr/local/share/q2pro/baseq2
+ADD ./opentdm /usr/local/share/q2pro/opentdm
 RUN useradd -m -s /bin/bash quake2
 RUN chown -R quake2:quake2 /opt/quake2
 RUN ARCH=$([ "$(uname -m)" = 'aarch64' ] && echo "arm64" || echo "amd64") \
