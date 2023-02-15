@@ -109,9 +109,11 @@ RUN useradd -m -s /bin/bash quake2
 RUN chown -R quake2:quake2 /opt/quake2
 RUN apt-get update
 RUN apt-get install curl -y
-RUN ARCH=$([ "$(uname -m)" = 'aarch64' ] && echo "arm64" || echo "amd64") \
-&& curl -o q2pro-server.tar.gz -sSL https://github.com/jocarren/opentdm-docker/raw/master/bin/q2pro/q2pro-server_linux_${ARCH}.tar.gz
-#RUN wget https://skuller.net/q2pro/nightly/q2pro-server_linux_amd64.tar.gz -O- | tar zxvf - -C /opt/quake2
+RUN ARCH=$([ "$(uname -m)" = 'aarch64' ] && echo "arm64" || echo "amd64")
+RUN curl -o q2pro-server.tar.gz -sSL https://github.com/jocarren/opentdm-docker/raw/master/bin/q2pro/q2pro-server_linux_${ARCH}.tar.gz | tar zxvf - -C /opt/quake2
+RUN curl -o game$(uname -m).so -sSL https://github.com/jocarren/opentdm-docker/raw/master/bin/opentdm/game${ARCH}.so
+RUN cp game$(uname -m).so /opt/quake2/opentdm
+RUN chmod +x /opt/quake2/q2proded
 EXPOSE 27910/udp
 EXPOSE 27910/tcp
 EXPOSE 27920/tcp
