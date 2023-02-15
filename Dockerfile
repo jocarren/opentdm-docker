@@ -104,14 +104,17 @@ ENV INITMAP="q2dm1"
 
 #++++BEGIN DIRECORY AND EXECUTABLE BUILD++++
 
-ADD ./bin /opt/quake2/bin
-ADD ./baseq2 /usr/local/share/q2pro/baseq2
-ADD ./opentdm /usr/local/share/q2pro/opentdm
+COPY bin/ /opt/quake2/bin/
+COPY baseq2/ /usr/local/share/q2pro/baseq2/
+COPY opentdm/ /usr/local/share/q2pro/opentdm/
 RUN useradd -m -s /bin/bash quake2
 RUN chown -R quake2:quake2 /opt/quake2
 RUN ARCH=$([ "$(uname -m)" = 'aarch64' ] && echo "arm64" || echo "amd64") \
-&& cp /opt/quake2/bin/opentdm/game${ARCH}.so /opt/quake2/opentdm/game$(uname -m).so \
-&& tar zxvf /opt/quake2/bin/q2pro/q2pro-server_linux_${ARCH}.tar.gz -C /opt/quake2
+&& mkdir -p /usr/local/lib/$(uname -m)-linux-gnu/q2pro/opentdm \
+&& mkdir -p /usr/local/lib/$(uname -m)-linux-gnu/q2pro/baseq2 \
+&& cp /opt/quake2/bin/opentdm/game${ARCH}.so /usr/local/lib/$(uname -m)-linux-gnu/q2pro/opentdm/ \
+&& tar zxvf /opt/quake2/bin/q2pro/q2pro-server_linux_${ARCH}.tar.gz -C /opt/quake2 \
+&& mv /opt/quake2/game${ARCH}.so /usr/local/lib/$(uname -m)-linux-gnu/q2pro/baseq2/
 RUN chmod +x /opt/quake2/q2proded
 RUN rm -R /opt/quake2/bin
 EXPOSE 27910/udp
