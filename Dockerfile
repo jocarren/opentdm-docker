@@ -104,12 +104,15 @@ ENV INITMAP="q2dm1"
 
 #++++BEGIN DIRECORY AND EXECUTABLE BUILD++++
 
-ADD . /opt/quake2
+RUN ARCH=$([ "$(uname -m)" = 'aarch64' ] && echo "arm64" || echo "amd64")
+COPY ./baseq2 /opt/quake2/baseq2
+COPY ./opentdm /opt/quake2/opentdm
+ADD ./bin/q2pro/q2pro-server_linux_${ARCH}.tar.gz /opt/quake2/
+COPY ./bin/opentdm/game${ARCH}.so /opt/quake2/opentdm/game$(uname -m).so
 RUN useradd -m -s /bin/bash quake2
 RUN chown -R quake2:quake2 /opt/quake2
 RUN apt-get update
 RUN apt-get install curl -y
-RUN ARCH=$([ "$(uname -m)" = 'aarch64' ] && echo "arm64" || echo "amd64")
 RUN curl -o q2pro-server.tar.gz -sSL https://github.com/jocarren/opentdm-docker/raw/master/bin/q2pro/q2pro-server_linux_${ARCH}.tar.gz | tar zxvf - -C /opt/quake2
 RUN curl -o game$(uname -m).so -sSL https://github.com/jocarren/opentdm-docker/raw/master/bin/opentdm/game${ARCH}.so
 RUN cp game$(uname -m).so /opt/quake2/opentdm
